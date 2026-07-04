@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from '../layouts/RootLayout';
+import Home from '../features/landing/pages/Home';
 
-const Home = () => <h2>Home Page</h2>;
+
 const Dashboard = () => <h2>Dashboard Page</h2>;
 const NotFound = () => <h2>404 - Page Not Found</h2>;
 
